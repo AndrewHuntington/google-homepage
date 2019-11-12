@@ -1,0 +1,30 @@
+body {
+  max-width: 1920px;
+  height: auto;
+}
+
+.main {
+  width: 400px;
+  position: relative;
+  top: 25%;
+  margin: 0 auto;
+}
+
+#search_bar {
+  width: 400px;
+  margin-bottom: 25px;
+}
+
+#logo {
+  position: relative;
+  left: 70px;
+}
+
+#search_btn {
+  margin-left: 75px;
+  margin-right: 25px;
+}
+
+/* #lucky_btn {
+  margin-left: 50px;
+} */
