@@ -7,6 +7,20 @@ nav {
   float: right;
 }
 
+a {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "sans-serif";
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
 .main {
   width: 400px;
   position: relative;
