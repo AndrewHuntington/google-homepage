@@ -1,18 +1,28 @@
 body {
   max-width: 1920px;
-  height: auto;
+  max-height: 1080px;
+}
+
+nav {
+  float: right;
 }
 
 .main {
   width: 400px;
   position: relative;
-  top: 25%;
   margin: 0 auto;
+}
+
+#user_pic {
+  border-radius: 25px;
 }
 
 #search_bar {
   width: 400px;
+  padding: 10px;
   margin-bottom: 25px;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
 #logo {
