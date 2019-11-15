@@ -1,8 +1,6 @@
 body {
-  max-width: 1920px;
-  max-height: 1080px;
   display: grid;
-  grid-template-rows: 80% 20%;
+  grid-template-rows: 20% 60% 20%;
 }
 
 /* The viewport code was nicked form Google's page. Bad boy! */
