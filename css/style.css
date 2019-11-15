@@ -32,6 +32,21 @@ a {
   color: rgb(66, 66, 66);
 }
 
+nav a {
+  padding: 20px 20px 10px 0px;
+  margin-left: -5px;
+}
+
+nav #user_pic {
+  position: relative;
+  bottom: 8px;
+}
+
+.nav-text{
+  position: relative;
+  top: 3px;
+}
+
 a:hover
 {
   text-decoration: underline;
