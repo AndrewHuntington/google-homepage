@@ -1,27 +1,25 @@
 body {
-  display: grid;
-  grid-template-rows: 20% 60% 20%;
-}
-
-/* The viewport code was nicked form Google's page. Bad boy! */
-
-div#viewport {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 1980px;
+  height: 900px;
 }
 
-#viewport {
-  min-height: 100%;
+.container {
+  display: grid;
+  height: 98vh;
+  width: 98vw;
+  grid-template-areas: "nav"
+                       "main"
+                       "footer";
+  grid-template-rows: 20% 60% 20%;
 }
-
 
 nav {
   /* This gets the nav bar back to the right w/o reversing the order, but I think I want to muck around with the content some more. */
   display: flex;
   justify-content: flex-end;
-  grid-row-start: 1;
-  grid-row-end: span 1;
+  grid-area: nav;
 }
 
 a {
@@ -39,11 +37,10 @@ a:hover
 }
 
 .main {
-  grid-row-start: 2;
-  grid-row-end: span 1;
   width: 400px;
   position: relative;
   margin: 0 auto;
+  grid-area: main;
 }
 
 #user_pic {
@@ -68,6 +65,7 @@ a:hover
   margin-right: 25px;
 }
 
-/* #lucky_btn {
-  margin-left: 50px;
-} */
+footer {
+  background-color: rgb(152, 152, 152);
+  grid-area: footer;
+}
