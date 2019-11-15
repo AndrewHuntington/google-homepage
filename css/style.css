@@ -69,18 +69,23 @@ a:hover
 footer {
   margin-top: -45px;
   padding: 25px 0px;
+  border-top: 1px solid rgb(230, 230, 230);
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(236, 236, 236);
   grid-area: footer;
 }
 
 #left-footer {
   display: inline-block;
   float: left;
+  position: relative;
+  bottom: 10px;
 }
 
 #right-footer {
   display: inline-block;
   float: right;
+  position: relative;
+  bottom: 10px;
 }
