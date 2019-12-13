@@ -1,4 +1,4 @@
-# Google Homepage Clone (Easy)
+# Google Homepage Clone (Project HTML/CSS - Easy)
 
 > HTML/CSS Project
 >
